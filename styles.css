@@ -1,0 +1,46 @@
+#board {
+    text-align: center;
+    padding: 3em;
+}
+
+div.row > div {
+    height: 100px;
+    width: 100px;
+    float: left;
+    clear: right;
+}
+
+.row {
+    margin: 0 auto;
+    width:302px;
+}
+
+.top {
+    border-bottom: 1px solid black;
+    background-color: lightcoral;
+    width: 100px;
+    height: 100px;
+}
+.left {
+    border-right: 1px solid blue;
+}
+
+.right {
+    border-left: 1px solid magenta;
+}
+
+.bottom {
+    border-top: 1px solid green;
+    background-color: lightseagreen;
+    width: 100px;
+    height: 100px;
+}
+.row:hover {
+    cursor: pointer;
+}
+
+.center{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
